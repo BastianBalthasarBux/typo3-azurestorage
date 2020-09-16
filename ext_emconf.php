@@ -15,4 +15,10 @@ $EM_CONF[$_EXTKEY] = [
             'typo3' => '7.6.0-9.9.99'
         ],
     ],
+    'autoload' => [
+        'psr-4' => [
+            'MicrosoftAzure\\Storage\\' => 'Classes',
+            'B3N\\AzureStorage\\TYPO3\\' => 'Classes'
+        ]
+    ],
 ];
